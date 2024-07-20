@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px; */
+    background-color: #0a192f;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #013f3c7f; 
+    border-radius: 10px;
+  }
+
+  i{
+    cursor:pointer;
+  }
+
+  i:hover{
+    color:snow;    
+  }
+
+  /* loader animation css */
+
+  .m{
+    animation: m 1s infinite;
+  }
+  @keyframes m {
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0.5;
+      
+    }
+    100%{
+      
+      opacity: 0.5;
+    }
+    
+  }
+
+  .n{
+    animation: n 1s infinite;
+  }
+  @keyframes n {
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 1;
+      
+    }
+    100%{
+      
+      opacity: 0.5;
+    }
+    
+  }
+
+  .c{
+    animation: c 1s infinite;
+  }
+  @keyframes c {
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 0.5;
+      
+    }
+    100%{
+      
+      opacity: 1;
+    }
+    
+  }
+
+
+
+  input,textarea{
+    height: 40px;
+    border: 1px solid gray;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  input:focus{
+    outline: none;
+    border: 2px solid rgb(68, 67, 67);
+  }
+
+  textarea{
+    height: 100px;
+    padding-top: 10px;
+  } 
+
