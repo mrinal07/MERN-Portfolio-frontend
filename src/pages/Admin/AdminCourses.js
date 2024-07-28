@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from "react-redux";
 import { Modal, Form, message, Popconfirm, Button } from "antd";
 import { HideLoading, ReloadData, showLoading } from "../../redux/rootSlice";
 import axios from "axios";
-import { set } from "mongoose";
 
 function AdminCourses() {
   // Reset the form fields
